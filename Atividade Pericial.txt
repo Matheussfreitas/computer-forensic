@@ -1,0 +1,55 @@
+1- Atividade Pericial
+
+-> Coleta (mídias)
+-> Exames (Dados)
+-> Análise (Informações)
+-> Resultados obtidos (Evidências)
+
+# Análise viva e Post-Mortem
+- Dados voláteis e não voláteis
+- Iniciar cópia a partir da memória mais volátil
+
+------------------------------------
+
+2- Preparando uma investigação
+-> Adquirir as evidências
+-> Preencher o formulário e estabelecer cadeia de custódia
+-> Transportar as evidências para um laboratório de computação forense (paredes verdadeiras, armarios com controle de acesso, identificar chaves/senhas para identificação)
+-> Evidências seguras em um conteiner seguro aprovado
+
+# Plano básico de investigação
+-> Preparar estação de trabalho forense (ferramentas necessárias para o caso, máquina sem conexão com internet, unidades de armazenamento, trocar de máquina entre 4/5 anos)
+-> Obter evidências no conteiner
+-> Fazer cópia forense das evidências (mais de uma cópia, mais de um método de cópia, usar mais de uma ferramenta, gerar uma cópia sempre do material original)
+-> Devolver evidências para o conteiner seguro, ou devolver ao usuário
+-> Processar evidências das cópias geradas com uma ferramenta forense
+
+------------------------------------
+
+3- Técnicas Forense
+-> Exploração dos MACTIMES
+-> Ordem de volatilidade das evidências
+-> Data Carving (técnica que recupera arquivos que foram apagados do aparelho)
+-> Email (cabeçalho do email -> informações de quem envia de fato o email, endereçamento dos dados) -> tentar verificar os metadados do email e whatsapp em casa
+
+------------------------------------
+
+4- Técnicas Anti Forense
+-> Pode ser aplicada através de métodos de ocutação, codificação ou exclusão de evidências, tendo como objetivo interferir nos resultados da investigação
+- Criptografia
+- Esteganografia -> alterar conteúdo de arquivos
+- Sanitização de discos -> formatação bit a bit (wipe)
+- Evolução tecnológica
+- Rootkits -> permite acesso exclusivo ao sistema camuflando a existencias de processos
+- Desmagnetizador
+- Empacotamento -> usado para comprimir malwares, um sinal é poucas strings
+- Anti-debugging
+- Anti-disassembly
+- Anti-VM -> programas procurando por endereços padrões usandos nos emuladores
+
+------------------------------------
+
+5- Requisitos físicos
+
+Obs: montar um SO por cima de outro usando live_cd
+Obs: Ler livro
